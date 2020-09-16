@@ -1,7 +1,4 @@
-def using_include (array, element)
-  # array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  # element1.include? ("wow")
-  # element2.include? ("Tardis")
+def using_include (array)
   array.include?
 end
 
@@ -22,5 +19,5 @@ def using_last(array)
 end
 
 def using_size(array)
-
+  array.size 
 end
