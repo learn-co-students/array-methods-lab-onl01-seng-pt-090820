@@ -1,4 +1,4 @@
-def using_include(element1, element2)
+def using_include(array)
   # array = ["wow", "I", "am", "really", "learning", "arrays!"]
   # element1.include? ("wow")
   # element2.include? ("Tardis")
@@ -14,11 +14,11 @@ def using_reverse(array)
 end
 
 def using_first(array)
-
+  array.first 
 end
 
 def using_last(array)
-
+  array.last 
 end
 
 def using_size(array)
